@@ -25,4 +25,6 @@ public class UsuarioController {
             return new ResponseEntity<>("Credenciales inválidas", HttpStatus.UNAUTHORIZED);
         }
     }
+    //Funciona bien, pero cuando exista código requerirá
+    //cambios
 }
